@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-vote-back
-  namespace: azurevote
+  namespace: simplevote
 spec:
   replicas: 1
   selector:
